@@ -127,26 +127,162 @@ struct ProjectView: View {
     
     
     var body: some View {
-        VStack{
-            Image(systemName: "house")
-            
-                .rotation3DEffect(
-                    .degrees(self.rotate),
-                    axis: (x: 0.0, y: 1.0, z: 0.0),
-                    anchor: .center,
-                    anchorZ: 0,
-                    perspective: 0
-                )
-                .animation(Animation.linear(duration: 7).repeatForever(autoreverses: false).delay(3))
-                .onAppear(){
-                    withAnimation() {
-                        rotate = 360
+        NavigationView{
+            ScrollView(.vertical, showsIndicators: true){
+                ZStack{
+                    Color(red: 252/255, green: 248/255, blue: 232/255)
+                        .edgesIgnoringSafeArea(.all)
+                    VStack {
+                        Spacer()
+                            .frame(height: 5)
+    //企画イメージ
+                        VStack {
+                            Image(projectdata.imageName)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: viewWidth * 0.9, height: viewWidth * 0.55)
+                                .fixedSize(horizontal: true, vertical: false)
+                                .cornerRadius(20)
+                            Spacer(minLength: 5)
+                            HStack {
+                                Spacer(minLength: 7)
+                                Rectangle()
+                                    .frame(width: 5, height: 70)
+                                    .foregroundColor(.black)
+                                VStack{
+                                    HStack{
+                                        Text(projectdata.projectTitle)
+                                            .font(.system(size: 23))
+                                            .fontWeight(.heavy)
+                                            .foregroundColor(.black)
+                                            .bold()
+                                            .padding(.top, 15)
+                                            .padding(.leading, 10)
+                                        Spacer()
+                                    }
+                                    HStack{
+                                        Text(projectdata.projectSubTitle)
+                                            .font(.system(size: 15))
+                                            .foregroundColor(.black)
+                                            .bold()
+                                            .padding(.top, 5)
+                                            .padding(.bottom, 15)
+                                            .padding(.leading, 10)
+                                        Spacer()
+                                    }
+                                }
+                                Spacer()
+                            }
+                            HStack{
+                                Spacer()
+                                Text(projectdata.groupName)
+                                    .font(.system(size: 13))
+                                    .foregroundColor(.black)
+                                    .padding(.trailing, 10)
+                            }
+                        }
+                        .frame(width: w)
+                                        
+                        Spacer(minLength: 25)
+    //Tag一覧
+                        if projectdata.tags != [""] {
+                            generateTags()
+                        }
+                                        
+                        Spacer(minLength: 35)
+    //企画ページリンク
+                        VStack {
+                           HeadLine(title: "企画ページリンク", imageName: "link")
+                            
+                            Spacer(minLength: 7)
+                            
+                            HStack (spacing: 20) {
+                                Image("link_virtual_rikoten")
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fill)
+                                    .shadow(radius: 3, x: 0, y: 5)
+                                Link(destination: URL(string: "https://pre.rikoten.com")!) {
+                                    Image("link_rikoten_web")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fill)
+                                        .shadow(radius: 3, x: 0, y: 5)
+                                }
+                            }
+                            .padding(.horizontal, 15)
+                        }
+                        .frame(width: w)
+                        
+                        Spacer(minLength: 50)
+                        
+    //説明系
+                        VStack{
+            //企画説明
+                            TextCell(title: "企画説明", text: projectdata.text1, imageName: "books.vertical")
+                            
+                            Spacer(minLength: 50)
+            //団体説明
+                            TextCell(title: "団体説明", text: projectdata.text2, imageName: "person.2")
+                            
+                            Spacer(minLength: 50)
+                        }
+                        .frame(width: w)
+            //リンク一覧
+                        VStack{
+                            HeadLine(title: "SNS", imageName: "globe")
+                            
+                            Spacer(minLength:10)
+                            
+                            HStack{
+                                LinkCell(link: projectdata.url_web, image: "web", image_gray: "web.gray")
+                                LinkCell(link: projectdata.url_twitter, image: "twitter", image_gray: "twitter.gray")
+                                LinkCell(link: projectdata.url_facebook, image: "facebook", image_gray: "facebook.gray")
+                                LinkCell(link: projectdata.url_instagram, image: "instagram", image_gray: "instagram.gray")
+                            }
+                            
+                            Spacer()
+                                .frame(height: 10)
+                            
+                        }
+                        .frame(width: w)
+                        
+                        VStack {
+                            HStack{
+                                Spacer()
+                                    .frame(width: 2000)
+                                Image(systemName: "house")
+                                
+                                    .rotation3DEffect(
+                                        .degrees(self.rotate),
+                                        axis: (x: 0.0, y: 1.0, z: 0.0),
+                                        anchor: .center,
+                                        anchorZ: 0,
+                                        perspective: 0
+                                    )
+                                    .animation(Animation.linear(duration: 7).repeatForever(autoreverses: false).delay(3))
+                                    .onAppear(){
+                                        withAnimation() {
+                                            rotate = 360
+                                        }
+                                    }
+                                Spacer()
+                                    .frame(width: 2000)
+                            }
+                            
+                            
+                            Spacer()
+                                .frame(height: 5)
+                        }
+                        
+                        
                     }
                 }
+            }
+            .navigationBarHidden(true)
         }
-            
-        
-        
+        .navigationTitle(Text(verbatim: projectdata.projectTitle))
+        .background(Color(red: 238, green: 205, blue: 91))
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationViewStyle(StackNavigationViewStyle())
     }
     
 //Tag構造
