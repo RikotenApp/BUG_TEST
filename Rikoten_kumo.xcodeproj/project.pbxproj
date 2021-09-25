@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3720356826F9A18600AF24F7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3720356726F9A18600AF24F7 /* HomeView.swift */; };
+		374C288D26D4765900564018 /* Rikoten_kumoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374C288C26D4765900564018 /* Rikoten_kumoApp.swift */; };
+		374C289126D4765B00564018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374C289026D4765B00564018 /* Assets.xcassets */; };
+		374C289426D4765B00564018 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 374C289326D4765B00564018 /* Preview Assets.xcassets */; };
+		374C289F26D4765B00564018 /* Rikoten_kumoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374C289E26D4765B00564018 /* Rikoten_kumoTests.swift */; };
+		374C28AA26D4765B00564018 /* Rikoten_kumoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374C28A926D4765B00564018 /* Rikoten_kumoUITests.swift */; };
+		3785F7A626D7C99D0004EF0B /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785F7A526D7C99D0004EF0B /* ProjectView.swift */; };
+		3785F7A926D7D18A0004EF0B /* ProjectData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785F7A826D7D18A0004EF0B /* ProjectData.swift */; };
+		3785F7AB26D7D2E90004EF0B /* ProjectDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785F7AA26D7D2E90004EF0B /* ProjectDataView.swift */; };
+		3785F7AD26D86B270004EF0B /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3785F7AC26D86B270004EF0B /* TagView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		374C289B26D4765B00564018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 374C288126D4765900564018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 374C288826D4765900564018;
+			remoteInfo = Rikoten_kumo;
+		};
+		374C28A626D4765B00564018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 374C288126D4765900564018 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 374C288826D4765900564018;
+			remoteInfo = Rikoten_kumo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3720356726F9A18600AF24F7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		374C288926D4765900564018 /* Rikoten_kumo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rikoten_kumo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		374C288C26D4765900564018 /* Rikoten_kumoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rikoten_kumoApp.swift; sourceTree = "<group>"; };
+		374C289026D4765B00564018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		374C289326D4765B00564018 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		374C289526D4765B00564018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		374C289A26D4765B00564018 /* Rikoten_kumoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rikoten_kumoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		374C289E26D4765B00564018 /* Rikoten_kumoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rikoten_kumoTests.swift; sourceTree = "<group>"; };
+		374C28A026D4765B00564018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		374C28A526D4765B00564018 /* Rikoten_kumoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rikoten_kumoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		374C28A926D4765B00564018 /* Rikoten_kumoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rikoten_kumoUITests.swift; sourceTree = "<group>"; };
+		374C28AB26D4765B00564018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3785F7A526D7C99D0004EF0B /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		3785F7A826D7D18A0004EF0B /* ProjectData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectData.swift; sourceTree = "<group>"; };
+		3785F7AA26D7D2E90004EF0B /* ProjectDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDataView.swift; sourceTree = "<group>"; };
+		3785F7AC26D86B270004EF0B /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		374C288626D4765900564018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374C289726D4765B00564018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374C28A226D4765B00564018 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		374C288026D4765900564018 = {
+			isa = PBXGroup;
+			children = (
+				374C288B26D4765900564018 /* Rikoten_kumo */,
+				374C289D26D4765B00564018 /* Rikoten_kumoTests */,
+				374C28A826D4765B00564018 /* Rikoten_kumoUITests */,
+				374C288A26D4765900564018 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		374C288A26D4765900564018 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				374C288926D4765900564018 /* Rikoten_kumo.app */,
+				374C289A26D4765B00564018 /* Rikoten_kumoTests.xctest */,
+				374C28A526D4765B00564018 /* Rikoten_kumoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		374C288B26D4765900564018 /* Rikoten_kumo */ = {
+			isa = PBXGroup;
+			children = (
+				374C288C26D4765900564018 /* Rikoten_kumoApp.swift */,
+				3720356726F9A18600AF24F7 /* HomeView.swift */,
+				3785F7A726D7CFAE0004EF0B /* App_Projecct */,
+				374C289026D4765B00564018 /* Assets.xcassets */,
+				374C289526D4765B00564018 /* Info.plist */,
+				374C289226D4765B00564018 /* Preview Content */,
+			);
+			path = Rikoten_kumo;
+			sourceTree = "<group>";
+		};
+		374C289226D4765B00564018 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				374C289326D4765B00564018 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		374C289D26D4765B00564018 /* Rikoten_kumoTests */ = {
+			isa = PBXGroup;
+			children = (
+				374C289E26D4765B00564018 /* Rikoten_kumoTests.swift */,
+				374C28A026D4765B00564018 /* Info.plist */,
+			);
+			path = Rikoten_kumoTests;
+			sourceTree = "<group>";
+		};
+		374C28A826D4765B00564018 /* Rikoten_kumoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				374C28A926D4765B00564018 /* Rikoten_kumoUITests.swift */,
+				374C28AB26D4765B00564018 /* Info.plist */,
+			);
+			path = Rikoten_kumoUITests;
+			sourceTree = "<group>";
+		};
+		3785F7A726D7CFAE0004EF0B /* App_Projecct */ = {
+			isa = PBXGroup;
+			children = (
+				3785F7A526D7C99D0004EF0B /* ProjectView.swift */,
+				3785F7AA26D7D2E90004EF0B /* ProjectDataView.swift */,
+				3785F7A826D7D18A0004EF0B /* ProjectData.swift */,
+				3785F7AC26D86B270004EF0B /* TagView.swift */,
+			);
+			path = App_Projecct;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		374C288826D4765900564018 /* Rikoten_kumo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374C28AE26D4765B00564018 /* Build configuration list for PBXNativeTarget "Rikoten_kumo" */;
+			buildPhases = (
+				374C288526D4765900564018 /* Sources */,
+				374C288626D4765900564018 /* Frameworks */,
+				374C288726D4765900564018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rikoten_kumo;
+			productName = Rikoten_kumo;
+			productReference = 374C288926D4765900564018 /* Rikoten_kumo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		374C289926D4765B00564018 /* Rikoten_kumoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374C28B126D4765B00564018 /* Build configuration list for PBXNativeTarget "Rikoten_kumoTests" */;
+			buildPhases = (
+				374C289626D4765B00564018 /* Sources */,
+				374C289726D4765B00564018 /* Frameworks */,
+				374C289826D4765B00564018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				374C289C26D4765B00564018 /* PBXTargetDependency */,
+			);
+			name = Rikoten_kumoTests;
+			productName = Rikoten_kumoTests;
+			productReference = 374C289A26D4765B00564018 /* Rikoten_kumoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		374C28A426D4765B00564018 /* Rikoten_kumoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374C28B426D4765B00564018 /* Build configuration list for PBXNativeTarget "Rikoten_kumoUITests" */;
+			buildPhases = (
+				374C28A126D4765B00564018 /* Sources */,
+				374C28A226D4765B00564018 /* Frameworks */,
+				374C28A326D4765B00564018 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				374C28A726D4765B00564018 /* PBXTargetDependency */,
+			);
+			name = Rikoten_kumoUITests;
+			productName = Rikoten_kumoUITests;
+			productReference = 374C28A526D4765B00564018 /* Rikoten_kumoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		374C288126D4765900564018 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					374C288826D4765900564018 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					374C289926D4765B00564018 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 374C288826D4765900564018;
+					};
+					374C28A426D4765B00564018 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 374C288826D4765900564018;
+					};
+				};
+			};
+			buildConfigurationList = 374C288426D4765900564018 /* Build configuration list for PBXProject "Rikoten_kumo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 374C288026D4765900564018;
+			productRefGroup = 374C288A26D4765900564018 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				374C288826D4765900564018 /* Rikoten_kumo */,
+				374C289926D4765B00564018 /* Rikoten_kumoTests */,
+				374C28A426D4765B00564018 /* Rikoten_kumoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		374C288726D4765900564018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374C289426D4765B00564018 /* Preview Assets.xcassets in Resources */,
+				374C289126D4765B00564018 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374C289826D4765B00564018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374C28A326D4765B00564018 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		374C288526D4765900564018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3785F7AD26D86B270004EF0B /* TagView.swift in Sources */,
+				3785F7A626D7C99D0004EF0B /* ProjectView.swift in Sources */,
+				3785F7AB26D7D2E90004EF0B /* ProjectDataView.swift in Sources */,
+				3720356826F9A18600AF24F7 /* HomeView.swift in Sources */,
+				3785F7A926D7D18A0004EF0B /* ProjectData.swift in Sources */,
+				374C288D26D4765900564018 /* Rikoten_kumoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374C289626D4765B00564018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374C289F26D4765B00564018 /* Rikoten_kumoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374C28A126D4765B00564018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374C28AA26D4765B00564018 /* Rikoten_kumoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		374C289C26D4765B00564018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 374C288826D4765900564018 /* Rikoten_kumo */;
+			targetProxy = 374C289B26D4765B00564018 /* PBXContainerItemProxy */;
+		};
+		374C28A726D4765B00564018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 374C288826D4765900564018 /* Rikoten_kumo */;
+			targetProxy = 374C28A626D4765B00564018 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		374C28AC26D4765B00564018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		374C28AD26D4765B00564018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		374C28AF26D4765B00564018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rikoten_kumo/Preview Content\"";
+				DEVELOPMENT_TEAM = Y7JFG96RU2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Rikoten_kumo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "My-project.Rikoten-kumo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		374C28B026D4765B00564018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rikoten_kumo/Preview Content\"";
+				DEVELOPMENT_TEAM = Y7JFG96RU2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Rikoten_kumo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "My-project.Rikoten-kumo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		374C28B226D4765B00564018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7JFG96RU2;
+				INFOPLIST_FILE = Rikoten_kumoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "My-project.Rikoten-kumoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rikoten_kumo.app/Rikoten_kumo";
+			};
+			name = Debug;
+		};
+		374C28B326D4765B00564018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7JFG96RU2;
+				INFOPLIST_FILE = Rikoten_kumoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "My-project.Rikoten-kumoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rikoten_kumo.app/Rikoten_kumo";
+			};
+			name = Release;
+		};
+		374C28B526D4765B00564018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7JFG96RU2;
+				INFOPLIST_FILE = Rikoten_kumoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "My-project.Rikoten-kumoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rikoten_kumo;
+			};
+			name = Debug;
+		};
+		374C28B626D4765B00564018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7JFG96RU2;
+				INFOPLIST_FILE = Rikoten_kumoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "My-project.Rikoten-kumoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rikoten_kumo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		374C288426D4765900564018 /* Build configuration list for PBXProject "Rikoten_kumo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374C28AC26D4765B00564018 /* Debug */,
+				374C28AD26D4765B00564018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		374C28AE26D4765B00564018 /* Build configuration list for PBXNativeTarget "Rikoten_kumo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374C28AF26D4765B00564018 /* Debug */,
+				374C28B026D4765B00564018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		374C28B126D4765B00564018 /* Build configuration list for PBXNativeTarget "Rikoten_kumoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374C28B226D4765B00564018 /* Debug */,
+				374C28B326D4765B00564018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		374C28B426D4765B00564018 /* Build configuration list for PBXNativeTarget "Rikoten_kumoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374C28B526D4765B00564018 /* Debug */,
+				374C28B626D4765B00564018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 374C288126D4765900564018 /* Project object */;
+}
